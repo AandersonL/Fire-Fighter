@@ -1,0 +1,229 @@
+[gd_scene load_steps=8 format=1]
+
+[ext_resource path="res://scenes/Main.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Scenario.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/Player_node.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/Canvas.gd" type="Script" id=4]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=5]
+[ext_resource path="res://assets/fonts/font.fnt" type="BitmapFont" id=6]
+[ext_resource path="res://assets/player/character.png" type="Texture" id=7]
+
+[node name="Main" type="Node"]
+
+script/script = ExtResource( 1 )
+
+[node name="Scenario" parent="." instance=ExtResource( 2 )]
+
+[node name="Player_node" parent="." instance=ExtResource( 3 )]
+
+transform/pos = Vector2( 342.172, 319.583 )
+
+[node name="canvas" type="CanvasLayer" parent="."]
+
+layer = 1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+script/script = ExtResource( 4 )
+
+[node name="HUD" parent="canvas" instance=ExtResource( 5 )]
+
+transform/pos = Vector2( 10.4242, 0.892868 )
+transform/scale = Vector2( 0.984812, 0.984812 )
+
+[node name="death_container" type="Container" parent="canvas"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 515.0
+margin/top = 300.0
+margin/right = 555.0
+margin/bottom = 340.0
+
+[node name="Panel" type="PanelContainer" parent="canvas/death_container"]
+
+visibility/self_opacity = 0.69
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -256.0
+margin/top = -284.0
+margin/right = 268.0
+margin/bottom = 289.0
+
+[node name="death_text" type="Label" parent="canvas/death_container"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -85.0
+margin/top = -270.0
+margin/right = 717.0
+margin/bottom = -240.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Esta morto!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="picture" type="Sprite" parent="canvas/death_container"]
+
+transform/pos = Vector2( 5, -40 )
+transform/scale = Vector2( 6.71429, 6.71429 )
+texture = ExtResource( 7 )
+region = true
+region_rect = Rect2( 7, 134, 16, 21 )
+
+[node name="points" type="Label" parent="canvas/death_container"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -235.0
+margin/top = -110.0
+margin/right = -121.0
+margin/bottom = -80.0
+custom_fonts/font = ExtResource( 6 )
+text = "Pontos: "
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Rank" type="Label" parent="canvas/death_container"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 14.0
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Button" type="Button" parent="canvas/death_container"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -65.0
+margin/top = 60.0
+margin/right = 77.0
+margin/bottom = 96.0
+custom_fonts/font = ExtResource( 6 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Resetar"
+flat = false
+
+[node name="Win_Text" type="Control" parent="canvas/death_container"]
+
+editor/display_folded = true
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+
+[node name="death_text1" type="Label" parent="canvas/death_container/Win_Text"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -45.0
+margin/top = -270.0
+margin/right = 71.0
+margin/bottom = -240.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Incrivel"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="death_text2" type="Label" parent="canvas/death_container/Win_Text"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -75.0
+margin/top = -240.0
+margin/right = 107.0
+margin/bottom = -210.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Voce provou"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="death_text3" type="Label" parent="canvas/death_container/Win_Text"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -115.0
+margin/top = -210.0
+margin/right = 157.0
+margin/bottom = -180.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "ser um verdadeiro"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="death_text4" type="Label" parent="canvas/death_container/Win_Text"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -95.0
+margin/top = -170.0
+margin/right = 177.0
+margin/bottom = -140.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "FIRE FIGHTER!"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="timer" type="Label" parent="canvas"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 512.0
+margin/top = 300.0
+margin/right = 552.0
+margin/bottom = 330.0
+custom_fonts/font = ExtResource( 6 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "4"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[connection signal="pressed" from="canvas/death_container/Button" to="canvas" method="_on_Button_pressed"]
+
+

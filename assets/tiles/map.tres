@@ -1,0 +1,958 @@
+[gd_resource type="TileSet" load_steps=157 format=1]
+
+[ext_resource path="res://assets/tiles/Overworld.png" type="Texture" id=1]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 23.0465, -46.8746, 23.6776, -48.2946, 23.6081, 29.5521, 22.5689, 29.6133, 22.5816, -5.98507, 22.6223, -10.3809 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 21.402, -5.62223, 21.6062, -6.59212, 22.5816, -5.98507 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.32562, -4.60129, -4.58086, -5.41804, -2.43689, -5.367, -2.48794, -3.37617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.5077, -14.512, -21.3854, -12.4948, -22.4246, -12.6476, -22.5469, -14.6037 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 7.48028, 43.5317, 7.64659, 44.5295, -2.62317, 44.4464, -2.5816, 43.4901 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 2.71884, -5.52014, 6.7005, -5.57118, 6.54736, -4.44815, 2.6678, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -22.4552, -36.4567, -21.4466, -36.5789, -21.4771, -34.5311, -22.394, -34.47 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 17.7266, -4.4992, 17.6756, -5.52014, 18.4923, -5.46909, 18.5434, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.4512, -5.52954, -8.55078, -6.50042, -6.48455, -6.50042, -6.48455, -5.55443 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -1.56909, -6.33689, -0.395016, -6.49003, -0.343967, -5.52014, -1.41595, -3.37617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.574875, -5.52014, 0.523829, -6.33689, 1.59581, -6.33689, 1.59581, -4.34606 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.4771, -20.5941, -21.4771, -17.4766, -22.4552, -17.5378, -22.4552, -20.6247 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 18.4569, 43.4901, 18.4984, 44.5711, 14.4238, 44.488, 14.4654, 43.6148 )
+
+[sub_resource type="ConvexPolygonShape2D" id=14]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.6598, -17.5855, 21.6092, -17.5105, 21.5341, -21.4505, 22.5473, -21.6006 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -17.4629, -5.47975, -17.4629, -6.5502, -16.4921, -6.50042, -16.4672, -5.50464 )
+
+[sub_resource type="ConvexPolygonShape2D" id=16]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -15.5539, 43.5732, -15.5124, 44.488, -19.5454, 44.488, -19.6286, 43.4901 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.4592, -5.42996, -10.4427, -5.50464, -10.4427, -4.45908, -12.4343, -4.53377 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.446, -5.42996, -20.4751, -5.47975, -20.4502, -4.48398, -23.0021, 29.5139 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.5688, -31.4748, -21.5382, -28.4184, -22.4246, -28.4184, -22.4246, -31.4748 )
+
+[sub_resource type="ConvexPolygonShape2D" id=20]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.0145, 33.4989, -23.0219, 33.5088, -23.0021, 29.5139 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -19.4296, -4.60845, -19.4296, -5.47975, -17.4629, -5.47975 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.0145, 33.4989, -14.4313, 42.617, -14.4313, 43.5732, -15.5539, 43.5732, -19.6286, 43.4901, -22.6222, 42.4922, -22.539, 38.4176, -22.3727, 33.6777 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -9.49676, -4.53377, -9.47187, -5.55443, -8.4512, -5.52954, -5.4997, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.0021, 29.5139, -24.0008, 29.504, -23.9169, -48.2773, -23.4486, -9.45979 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 21.5716, -33.4958, 21.4591, -37.3983, 22.3596, -37.4358, 22.5848, -33.4207 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -15.4465, -5.47975, -15.3718, -6.50042, -13.455, -6.40084, -13.4798, -4.53377 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -22.4916, -6.50042, -21.4709, -6.50042, -21.446, -5.42996, -23.0021, 29.5139 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.5689, 29.6133, 22.5689, 33.5865, 21.4992, 33.6171 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.45703, -4.4992, 9.50808, -5.52014, 14.4596, -5.46909, 14.5107, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.6223, -24.49, 21.5341, -24.6401, 21.6842, -26.4412, 22.5097, -30.4188 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -22.6222, 42.4922, -23.5369, 42.4506, -23.5785, 38.5839, -22.539, 38.4176 )
+
+[sub_resource type="ConvexPolygonShape2D" id=32]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.0145, 33.4989, -23.0021, 29.5139, 10.4739, 42.5338, 10.4323, 43.4901, 7.48028, 43.5317, -2.5816, 43.4901, -12.6019, 42.617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.48455, -5.55443, -5.48878, -5.47975, -5.4997, -4.44815, -8.4512, -5.52954 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.5816, 43.4901, -12.5603, 43.3238, -12.6019, 42.617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -19.6286, 43.4901, -22.539, 43.4485, -22.6222, 42.4922 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 23.6035, 39.838, 23.2383, 43.4485, 18.4569, 43.4901, 22.6588, 39.4602 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 14.4654, 43.6148, 13.4675, 43.4901, 13.4675, 42.5338, 21.4992, 33.6171, 21.4307, 36.9095, 18.4569, 43.4901 )
+
+[sub_resource type="ConvexPolygonShape2D" id=38]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 20.521, -26.7789, 20.4834, -28.3925, 21.4591, -28.5426, 21.6842, -26.4412 )
+
+[sub_resource type="ConvexPolygonShape2D" id=39]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 21.4591, -28.5426, 21.6467, -30.3812, 22.5097, -30.4188, 21.6842, -26.4412 )
+
+[sub_resource type="ConvexPolygonShape2D" id=40]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 19.5643, -4.75443, 19.6664, -5.57118, 21.402, -5.62223 )
+
+[sub_resource type="ConvexPolygonShape2D" id=41]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 21.4591, -10.7186, 21.4966, -11.5066, 22.5473, -11.6192, 22.6223, -10.3809 )
+
+[sub_resource type="ConvexPolygonShape2D" id=42]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.4127, -7.49619, -22.5414, -7.39661, -22.4916, -6.50042, -23.0021, 29.5139 )
+
+[sub_resource type="ConvexPolygonShape2D" id=43]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -22.4246, -12.6476, -22.5458, -9.59867, -23.4486, -9.45979, -22.5469, -14.6037 )
+
+[sub_resource type="ConvexPolygonShape2D" id=44]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -21.416, -46.3898, -21.5382, -44.4949, -22.4246, -44.3115, -22.4246, -46.7566 )
+
+[sub_resource type="ConvexPolygonShape2D" id=45]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -1.41595, -3.37617, -0.343967, -5.52014, 0.574875, -5.52014, 1.59581, -4.34606 )
+
+[sub_resource type="ConvexPolygonShape2D" id=46]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.3972, -41.4133, 21.4687, -41.8256, 21.3109, -43.4034, 22.2576, -44.3501 )
+
+[sub_resource type="ConvexPolygonShape2D" id=47]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.4638, -39.024, -22.5163, -38.5044, -22.4552, -36.4567 )
+
+[sub_resource type="ConvexPolygonShape2D" id=48]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.3754, 37.8542, 22.6588, 39.4602, 18.4569, 43.4901, 21.4307, 36.9095 )
+
+[sub_resource type="ConvexPolygonShape2D" id=49]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.6019, 42.617, -14.4313, 42.617, -21.0145, 33.4989 )
+
+[sub_resource type="ConvexPolygonShape2D" id=50]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.9169, -48.2773, -22.6385, -47.6124, -22.4246, -46.7566, -22.4246, -44.3115, -22.6691, -42.4777, -23.4638, -39.024 )
+
+[sub_resource type="ConvexPolygonShape2D" id=51]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -13.4798, -4.53377, -2.48794, -3.37617, 22.5689, 29.6133, 21.4992, 33.6171, 13.4675, 42.5338, 10.4739, 42.5338, -23.0021, 29.5139, -20.4502, -4.48398, -19.4296, -4.60845 )
+
+[sub_resource type="ConvexPolygonShape2D" id=52]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.4997, -4.44815, -4.32562, -4.60129, -2.48794, -3.37617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=53]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -16.4672, -5.50464, -15.4465, -5.47975, -13.4798, -4.53377, -19.4296, -4.60845, -17.4629, -5.47975 )
+
+[sub_resource type="ConvexPolygonShape2D" id=54]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.3972, -41.4133, 22.2576, -44.3501, 23.0465, -46.8746 )
+
+[sub_resource type="ConvexPolygonShape2D" id=55]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.4638, -39.024, -22.4552, -36.4567, -22.394, -34.47, -22.4246, -31.4748 )
+
+[sub_resource type="ConvexPolygonShape2D" id=56]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -9.49676, -4.53377, -5.4997, -4.44815, -2.48794, -3.37617, -10.4427, -4.45908 )
+
+[sub_resource type="ConvexPolygonShape2D" id=57]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -1.41595, -3.37617, 1.59581, -4.34606, 2.6678, -4.44815, 6.54736, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=58]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 19.5643, -4.75443, 21.402, -5.62223, 22.5816, -5.98507, 22.5689, 29.6133 )
+
+[sub_resource type="ConvexPolygonShape2D" id=59]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -22.4552, -20.6247, -22.4552, -17.5378, -22.5469, -14.6037, -23.4486, -9.45979, -23.4638, -39.024 )
+
+[sub_resource type="ConvexPolygonShape2D" id=60]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.4638, -39.024, -22.4246, -31.4748, -22.4246, -28.4184, -22.4552, -20.6247 )
+
+[sub_resource type="ConvexPolygonShape2D" id=61]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -1.41595, -3.37617, 6.54736, -4.44815, 9.45703, -4.4992, 14.5107, -4.44815 )
+
+[sub_resource type="ConvexPolygonShape2D" id=62]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.3596, -37.4358, 22.3972, -41.4133, 23.0465, -46.8746, 22.5848, -33.4207 )
+
+[sub_resource type="ConvexPolygonShape2D" id=63]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.4343, -4.53377, -10.4427, -4.45908, -2.48794, -3.37617, -13.4798, -4.53377 )
+
+[sub_resource type="ConvexPolygonShape2D" id=64]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.6223, -10.3809, 22.5473, -11.6192, 22.6598, -17.5855 )
+
+[sub_resource type="ConvexPolygonShape2D" id=65]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -1.41595, -3.37617, 14.5107, -4.44815, 17.7266, -4.4992, 18.5434, -4.44815, 22.5689, 29.6133 )
+
+[sub_resource type="ConvexPolygonShape2D" id=66]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.6598, -17.5855, 22.5473, -21.6006, 22.6223, -24.49 )
+
+[sub_resource type="ConvexPolygonShape2D" id=67]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.9169, -48.2773, -23.4638, -39.024, -23.4486, -9.45979 )
+
+[sub_resource type="ConvexPolygonShape2D" id=68]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -23.0021, 29.5139, -23.4486, -9.45979, -23.4127, -7.49619 )
+
+[sub_resource type="ConvexPolygonShape2D" id=69]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.5689, 29.6133, -2.48794, -3.37617, -1.41595, -3.37617 )
+
+[sub_resource type="ConvexPolygonShape2D" id=70]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.5689, 29.6133, 18.5434, -4.44815, 19.5643, -4.75443 )
+
+[sub_resource type="ConvexPolygonShape2D" id=71]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 23.0465, -46.8746, 22.6223, -10.3809, 22.6598, -17.5855 )
+
+[sub_resource type="ConvexPolygonShape2D" id=72]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 23.0465, -46.8746, 22.6598, -17.5855, 22.6223, -24.49, 22.5848, -33.4207 )
+
+[sub_resource type="ConvexPolygonShape2D" id=73]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 22.5848, -33.4207, 22.6223, -24.49, 22.5097, -30.4188 )
+
+[sub_resource type="ConvexPolygonShape2D" id=74]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -3.18976, -14.7906, -0.671509, 13.1036, -8.41992, 15.6219, -11.1319, 10.9728, -11.5193, 7.48603, -11.9067, -10.7227 )
+
+[sub_resource type="ConvexPolygonShape2D" id=75]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 8.04547, -13.4347, 15.2127, -7.23595, 15.4064, 7.29232, 10.1763, 14.847, 4.1712, 13.8785, -3.18976, -14.7906 )
+
+[sub_resource type="ConvexPolygonShape2D" id=76]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -3.18976, -14.7906, 4.1712, 13.8785, -0.671509, 13.1036 )
+
+[sub_resource type="ConvexPolygonShape2D" id=77]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -14.6187, -4.524, -11.9067, -10.7227, -11.5193, 7.48603, -14.425, 2.64328 )
+
+[sub_resource type="ConvexPolygonShape2D" id=78]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -7.46524, 18.0288, -7.73461, -7.92776, -7.2687, 18.9967 )
+
+[sub_resource type="ConvexPolygonShape2D" id=79]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.09139, -20.7233, 2.10674, -20.9351, 7.15449, -17.0755, 7.40015, 0.745117, 5.27216, 1.71991, -7.37824, -18.5829 )
+
+[sub_resource type="ConvexPolygonShape2D" id=80]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -7.27153, 18.0282, -7.37824, -18.5829, 5.27216, 1.71991, 6.06733, 8.69119, 7.06862, 19.9235, 3.97774, 22.8382, -4.3529, 22.475 )
+
+[sub_resource type="ConvexPolygonShape2D" id=81]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -7.27153, 18.0282, -4.3529, 22.475, -7.46524, 18.0288 )
+
+[sub_resource type="ConvexPolygonShape2D" id=82]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -7.46524, 18.0288, -7.2687, 18.9967, -7.27153, 18.0282 )
+
+[sub_resource type="ConvexPolygonShape2D" id=83]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 18.7669, -7.38221, 20.8231, -5.069, 20.6946, 3.79828, 17.4818, 7.52511, -19.0154, 7.26809, -22.8707, 3.54126, -22.8707, -4.42645, -19.658, -7.51072 )
+
+[sub_resource type="ConvexPolygonShape2D" id=84]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -3.39938, -14.1633, -1.98238, -15.3914, -0.187485, -15.3914, 0.473801, -14.3523, 0.568253, 12.4766, -3.30492, 12.3821 )
+
+[sub_resource type="ConvexPolygonShape2D" id=85]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -8.1516, -7.10954, 7.23538, -7.42356, 7.75874, -5.22542, 7.86342, 2.10172, -8.1516, 2.52041 )
+
+[sub_resource type="ConvexPolygonShape2D" id=86]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.50413, 10.0177, -6.53799, 12.9301, -12.5999, 13.0656, -12.4645, 2.93976, -11.584, 2.93976 )
+
+[sub_resource type="ConvexPolygonShape2D" id=87]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 8.49661, -12.9591, 9.53708, -12.9921, 9.51427, -3.05444, 8.53217, -2.95284 )
+
+[sub_resource type="ConvexPolygonShape2D" id=88]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 5.4743, -13.983, 5.45778, -15.0235, 7.50568, -14.9905, 7.48917, -13.9335 )
+
+[sub_resource type="ConvexPolygonShape2D" id=89]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.4804, 3.00749, 9.51427, 12.964, 3.38461, 12.9978, 3.45234, 9.84833, 8.49831, 2.87203 )
+
+[sub_resource type="ConvexPolygonShape2D" id=90]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.4434, -14.9404, -8.51785, -14.9404, -8.51785, -14.054, -10.5656, -14.0235 )
+
+[sub_resource type="ConvexPolygonShape2D" id=91]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.50896, -10.0358, 3.52548, -12.9591, 4.48338, -12.9591, 8.53217, -2.95284 )
+
+[sub_resource type="ConvexPolygonShape2D" id=92]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 4.48338, -12.9591, 7.48917, -13.9335, 8.48009, -13.9335, 8.49661, -12.9591, 8.53217, -2.95284 )
+
+[sub_resource type="ConvexPolygonShape2D" id=93]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -11.4824, -2.88511, -12.4306, -2.9867, -12.4911, -12.8926, -11.5742, -12.9232, -6.49935, -10.0028 )
+
+[sub_resource type="ConvexPolygonShape2D" id=94]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -7.55633, -13.0747, -6.46632, -13.0086, -6.49935, -10.0028, -11.5742, -12.9232 )
+
+[sub_resource type="ConvexPolygonShape2D" id=95]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.5656, -14.0235, -8.51785, -14.054, -7.55633, -13.9995, -7.55633, -13.0747, -11.5742, -12.9232, -11.5742, -13.9318 )
+
+[sub_resource type="ConvexPolygonShape2D" id=96]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 4.48338, -12.9591, 4.53292, -13.9665, 5.4743, -13.983, 7.48917, -13.9335 )
+
+[sub_resource type="ConvexPolygonShape2D" id=97]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.50896, -10.0358, 8.53217, -2.95284, 8.49831, 2.87203, 3.45234, 9.84833, -6.50413, 10.0177, -11.584, 2.93976, -11.4824, -2.88511, -6.49935, -10.0028 )
+
+[sub_resource type="ConvexPolygonShape2D" id=98]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.02925, -12.1787, 2.98768, -13.0518, 3.94397, -13.0518, 3.928, -12.1047 )
+
+[sub_resource type="ConvexPolygonShape2D" id=99]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 10.011, -11.0503, 11.9372, -11.0706, 11.8967, -9.10376, 11.0045, -9.12404, 8.06441, -11.0097 )
+
+[sub_resource type="ConvexPolygonShape2D" id=100]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 8.04414, -11.9627, 10.011, -12.0236, 10.011, -11.0503, 8.06441, -11.0097 )
+
+[sub_resource type="ConvexPolygonShape2D" id=101]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.91, -10.9313, -5.95157, -11.9292, -2.87481, -11.9708, 10.011, -1.07426, 9.9704, 0.933113 )
+
+[sub_resource type="ConvexPolygonShape2D" id=102]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -2.87481, -11.9708, -2.91638, -13.0934, 0.991936, -13.1349, 0.991936, -12.1371 )
+
+[sub_resource type="ConvexPolygonShape2D" id=103]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 10.9819, 8.99527, 11.9528, 9.02016, 11.903, 10.9121, 10.0608, 10.937 )
+
+[sub_resource type="ConvexPolygonShape2D" id=104]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.8993, -7.97929, -11.9388, -7.97929, -11.9388, -10.9729, -11.0657, -11.0145, -9.02834, -10.9313 )
+
+[sub_resource type="ConvexPolygonShape2D" id=105]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -11.0495, 11.0615, -11.9955, 11.0117, -11.9955, 8.99526, -10.9997, 8.99526, -9.00816, 11.0366 )
+
+[sub_resource type="ConvexPolygonShape2D" id=106]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.9499, 1.02911, -12.0204, 1.02911, -12.0204, 0.108025, -11.9955, -3.94974, -10.9748, -5.09487, 9.9704, 0.933113 )
+
+[sub_resource type="ConvexPolygonShape2D" id=107]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 0.974419, 12.8539, -0.942436, 12.9037, -0.967331, 12.0324, 1.09889, 12.0075 )
+
+[sub_resource type="ConvexPolygonShape2D" id=108]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 8.06441, -11.0097, 11.0045, -9.12404, 10.9842, -6.06229, 9.92985, -6.06229, 5.00266, -10.9895 )
+
+[sub_resource type="ConvexPolygonShape2D" id=109]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -9.00816, 11.0366, -9.00816, 12.0573, -10.9748, 12.0821, -11.0495, 11.0615 )
+
+[sub_resource type="ConvexPolygonShape2D" id=110]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.98615, 12.0075, 8.0444, 12.0324, 8.0195, 11.0864, 10.0608, 10.937 )
+
+[sub_resource type="ConvexPolygonShape2D" id=111]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 3.928, -12.1047, 4.98238, -12.1047, 5.00266, -10.9895 )
+
+[sub_resource type="ConvexPolygonShape2D" id=112]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.9663, -0.0413437, -12.9912, -3.92484, -11.9955, -3.94974, -12.0204, 0.108025 )
+
+[sub_resource type="ConvexPolygonShape2D" id=113]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.9825, -11.8876, -9.06992, -11.9292, -9.02834, -10.9313, -11.0657, -11.0145 )
+
+[sub_resource type="ConvexPolygonShape2D" id=114]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 11.0248, -0.972878, 10.9842, 0.933113, 9.9704, 0.933113, 10.011, -1.07426 )
+
+[sub_resource type="ConvexPolygonShape2D" id=115]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -11.9955, -3.94974, -11.9955, -5.06998, -10.9748, -5.09487 )
+
+[sub_resource type="ConvexPolygonShape2D" id=116]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.9499, 1.02911, 2.99087, 11.0117, 2.99085, 11.9328, 1.09889, 12.0075, -0.967331, 12.0324, -5.02509, 11.0366, -10.9997, 8.99526 )
+
+[sub_resource type="ConvexPolygonShape2D" id=117]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -0.967331, 12.0324, -4.9753, 11.9826, -5.02509, 11.0366 )
+
+[sub_resource type="ConvexPolygonShape2D" id=118]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.98613, 5.80881, 10.957, 6.05775, 10.9819, 8.99527, 10.0608, 10.937, 8.0195, 11.0864, 2.99087, 11.0117 )
+
+[sub_resource type="ConvexPolygonShape2D" id=119]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.9748, -5.09487, -10.8993, -7.97929, -9.02834, -10.9313, -5.91, -10.9313, 9.9704, 0.933113 )
+
+[sub_resource type="ConvexPolygonShape2D" id=120]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.9704, 0.933113, 9.98613, 5.80881, 2.99087, 11.0117, -10.9499, 1.02911 )
+
+[sub_resource type="ConvexPolygonShape2D" id=121]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.02509, 11.0366, -9.00816, 11.0366, -10.9997, 8.99526 )
+
+[sub_resource type="ConvexPolygonShape2D" id=122]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 5.00266, -10.9895, 9.92985, -6.06229, 10.011, -1.07426, -2.87481, -11.9708, 0.991936, -12.1371, 3.02925, -12.1787 )
+
+[sub_resource type="ConvexPolygonShape2D" id=123]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 5.00266, -10.9895, 3.02925, -12.1787, 3.928, -12.1047 )
+
+[sub_resource type="ConvexPolygonShape2D" id=124]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -29.9892, 35.9863, -33.4931, 35.9863, -32.6171, 26.9346, -27.9453, 34.8183 )
+
+[sub_resource type="ConvexPolygonShape2D" id=125]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 31.3283, 11.7512, 29.2844, 35.9863, 14.101, 34.8183, 13.809, 33.0664 )
+
+[sub_resource type="ConvexPolygonShape2D" id=126]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -3.41827, -39.6387, 10.0132, -37.0108, 34.563, -23.3861, 34.5402, 10.5833, 31.3283, 11.7512, -33.4931, 12.6272, -36.413, 9.12334, -35.1944, -25.5325 )
+
+[sub_resource type="ConvexPolygonShape2D" id=127]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -33.7851, 23.7228, -33.4931, 12.6272, 31.3283, 11.7512, 13.809, 33.0664, -15.9738, 32.1904, -32.6171, 26.9346 )
+
+[sub_resource type="ConvexPolygonShape2D" id=128]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -27.9453, 34.8183, -32.6171, 26.9346, -15.9738, 32.1904, -18.8937, 35.1103 )
+
+[sub_resource type="ConvexPolygonShape2D" id=129]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 28.3942, -26.7932, 35.2912, -20.6097, 32.4373, -18.2314, 24.3512, -27.2688 )
+
+[sub_resource type="ConvexPolygonShape2D" id=130]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -20.1223, 35.7551, -32.2515, 35.7551, -32.965, 12.686, -17.9819, 34.0904 )
+
+[sub_resource type="ConvexPolygonShape2D" id=131]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 31.486, 13.1616, 31.2481, 24.1017, 30.5347, 36.2308, 15.5516, 35.993, 12.4599, 34.566, -32.965, 12.686 )
+
+[sub_resource type="ConvexPolygonShape2D" id=132]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 10.5573, -35.3549, 24.1133, -34.6415, 24.3512, -27.2688 )
+
+[sub_resource type="ConvexPolygonShape2D" id=133]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 33.1508, -10.8588, 36.4803, 11.0212, 31.486, 13.1616, -32.965, 12.686, -37.2458, 11.4969, -35.1054, -9.43186, -34.6298, -12.7614, -28.2085, -27.031, -13.4632, -35.3549, -1.09625, -39.1602, 10.5573, -35.3549, 24.3512, -27.2688 )
+
+[sub_resource type="ConvexPolygonShape2D" id=134]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -28.2085, -27.031, -26.7815, -35.1171, -13.4632, -35.3549 )
+
+[sub_resource type="ConvexPolygonShape2D" id=135]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -34.6298, -12.7614, -36.0567, -21.561, -28.2085, -27.031 )
+
+[sub_resource type="ConvexPolygonShape2D" id=136]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 12.4599, 34.566, -17.9819, 34.0904, -32.965, 12.686 )
+
+[sub_resource type="ConvexPolygonShape2D" id=137]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 33.1508, -10.8588, 24.3512, -27.2688, 32.4373, -18.2314 )
+
+[sub_resource type="ConvexPolygonShape2D" id=138]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -6.74408, 9.45681, -6.59018, 11.1496, -9.82187, 11.2265, -10.5144, 10.4571, -10.8991, 8.45653, -10.8991, 7.22541 )
+
+[sub_resource type="ConvexPolygonShape2D" id=139]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 4.95154, -11.6261, 4.95154, -12.3955, 6.64432, -12.4725, 7.33682, -11.5491 )
+
+[sub_resource type="ConvexPolygonShape2D" id=140]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.35907, -11.78, -4.97433, -12.3955, 0.180969, -12.5494, 0.257904, -11.703, -5.82074, 8.2257 )
+
+[sub_resource type="ConvexPolygonShape2D" id=141]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 13.9541, 3.37817, 14.108, 8.53347, 13.0307, 8.68737, 13.1846, 3.14734 )
+
+[sub_resource type="ConvexPolygonShape2D" id=142]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -5.82074, 8.2257, -6.74408, 9.45681, -10.8991, 7.22541, -14.3616, 5.22485, -13.9769, -1.62324, -12.8997, -5.62437, -11.7789, -8.12267, -10.2066, -10.4719, -5.35907, -11.78 )
+
+[sub_resource type="ConvexPolygonShape2D" id=143]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.9766, 9.45681, -14.2847, 9.68765, -16.4391, 7.99486, -15.9005, 6.60986, -14.3616, 5.22485, -12.1302, 8.30264 )
+
+[sub_resource type="ConvexPolygonShape2D" id=144]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.8991, 7.22541, -12.1302, 8.30264, -14.3616, 5.22485 )
+
+[sub_resource type="ConvexPolygonShape2D" id=145]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 4.95154, -11.6261, 7.33682, -11.5491, 9.26047, -11.1644, 11.0302, -9.31772, 11.8766, -8.31744, 13.1077, -6.47076, 13.2616, -3.00824, 12.1074, -2.46963, 2.48932, -10.7027, 3.25876, -11.2413 )
+
+[sub_resource type="ConvexPolygonShape2D" id=146]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.66656, 9.45681, -5.82074, 8.2257, 0.257904, -11.703, 2.25848, -11.4722, 2.48932, -10.7027, -1.35794, 9.6107 )
+
+[sub_resource type="ConvexPolygonShape2D" id=147]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -10.2066, -10.4719, -9.51407, -11.78, -5.35907, -11.78 )
+
+[sub_resource type="ConvexPolygonShape2D" id=148]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 12.0305, -0.161289, 13.1077, 0.531216, 13.1846, 3.14734, 13.0307, 8.68737, 10.8763, 9.91848, 5.64404, 10.6879, -0.58847, 10.6879, -1.35794, 9.6107 )
+
+[sub_resource type="ConvexPolygonShape2D" id=149]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 12.1074, -2.46963, 12.0305, -0.161289, -1.35794, 9.6107, 2.48932, -10.7027 )
+
+[sub_resource type="ConvexPolygonShape2D" id=150]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -4.57404, -10.6749, -1.86209, -13.5806, 8.4046, -9.31897, 12.6663, -5.25104, 9.95428, -2.34537, 1.2373, 6.95276, -3.21808, 7.34019 )
+
+[sub_resource type="ConvexPolygonShape2D" id=151]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 9.95428, -2.34537, 13.2474, -1.18311, 14.0222, 3.65968, 10.5354, 5.01566, 1.2373, 6.95276 )
+
+[sub_resource type="ConvexPolygonShape2D" id=152]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 10.5354, 5.01566, 11.3103, 9.2773, 7.04861, 11.2144, 1.2373, 6.95276 )
+
+[sub_resource type="ConvexPolygonShape2D" id=153]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -13.4847, -4.6699, -12.1288, -8.1567, -4.57404, -10.6749, -3.21808, 7.34019, -12.5162, -2.34537 )
+
+[sub_resource type="ConvexPolygonShape2D" id=154]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -12.1288, 8.69617, -15.0344, 4.0471, -14.8407, 0.366592, -12.5162, -2.34537, -3.21808, 7.34019, -7.09229, 11.0207 )
+
+[sub_resource type="ConvexPolygonShape2D" id=155]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 17.8085, -22.3428, 22.3272, -15.4458, 22.3272, 16.8986, 18.0463, 20.7038, -20.9572, 20.466, -23.8111, 14.7581, -23.5733, -14.4945, -23.0977, -18.5376, -18.3411, -22.8184 )
+
+[resource]
+
+0/name = "ground_simple"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 16, 16 )
+0/occluder_offset = Vector2( 8, 8 )
+0/navigation_offset = Vector2( 8, 8 )
+0/shape_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+0/one_way_collision_direction = Vector2( 0, 0 )
+0/one_way_collision_max_depth = 0.0
+1/name = "simple_moutain"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 64, 147, 48, 97 )
+1/occluder_offset = Vector2( 24, 48.5 )
+1/navigation_offset = Vector2( 24, 48.5 )
+1/shape_offset = Vector2( 24, 48.5 )
+1/shapes = [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ), SubResource( 52 ), SubResource( 53 ), SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ), SubResource( 61 ), SubResource( 62 ), SubResource( 63 ), SubResource( 64 ), SubResource( 65 ), SubResource( 66 ), SubResource( 67 ), SubResource( 68 ), SubResource( 69 ), SubResource( 70 ), SubResource( 71 ), SubResource( 72 ), SubResource( 73 ) ]
+1/one_way_collision_direction = Vector2( 0, 0 )
+1/one_way_collision_max_depth = 0.0
+2/name = "ground_simple_2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 176, 80, 32, 32 )
+2/occluder_offset = Vector2( 16, 16 )
+2/navigation_offset = Vector2( 16, 16 )
+2/shape_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+2/one_way_collision_direction = Vector2( 0, 0 )
+2/one_way_collision_max_depth = 0.0
+3/name = "fence"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 37, 274, 25, 30 )
+3/occluder_offset = Vector2( 12.5, 15 )
+3/navigation_offset = Vector2( 12.5, 15 )
+3/shape_offset = Vector2( 12.5, 15 )
+3/shapes = [ SubResource( 86 ), SubResource( 87 ), SubResource( 88 ), SubResource( 89 ), SubResource( 90 ), SubResource( 91 ), SubResource( 92 ), SubResource( 93 ), SubResource( 94 ), SubResource( 95 ), SubResource( 96 ), SubResource( 97 ) ]
+3/one_way_collision_direction = Vector2( 0, 0 )
+3/one_way_collision_max_depth = 0.0
+4/name = "water"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 32, 96, 48, 48 )
+4/occluder_offset = Vector2( 24, 24 )
+4/navigation_offset = Vector2( 24, 24 )
+4/shape_offset = Vector2( 24, 24 )
+4/shapes = [ SubResource( 98 ), SubResource( 99 ), SubResource( 100 ), SubResource( 101 ), SubResource( 102 ), SubResource( 103 ), SubResource( 104 ), SubResource( 105 ), SubResource( 106 ), SubResource( 107 ), SubResource( 108 ), SubResource( 109 ), SubResource( 110 ), SubResource( 111 ), SubResource( 112 ), SubResource( 113 ), SubResource( 114 ), SubResource( 115 ), SubResource( 116 ), SubResource( 117 ), SubResource( 118 ), SubResource( 119 ), SubResource( 120 ), SubResource( 121 ), SubResource( 122 ), SubResource( 123 ) ]
+4/one_way_collision_direction = Vector2( 0, 0 )
+4/one_way_collision_max_depth = 0.0
+5/name = "house"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 101, 1, 73, 80 )
+5/occluder_offset = Vector2( 36.5, 40 )
+5/navigation_offset = Vector2( 36.5, 40 )
+5/shape_offset = Vector2( 36.5, 40 )
+5/shapes = [ SubResource( 124 ), SubResource( 125 ), SubResource( 126 ), SubResource( 127 ), SubResource( 128 ) ]
+5/one_way_collision_direction = Vector2( 0, 0 )
+5/one_way_collision_max_depth = 0.0
+6/name = "house 2"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 179, 0, 76, 80 )
+6/occluder_offset = Vector2( 38, 40 )
+6/navigation_offset = Vector2( 38, 40 )
+6/shape_offset = Vector2( 38, 40 )
+6/shapes = [ SubResource( 129 ), SubResource( 130 ), SubResource( 131 ), SubResource( 132 ), SubResource( 133 ), SubResource( 134 ), SubResource( 135 ), SubResource( 136 ), SubResource( 137 ) ]
+6/one_way_collision_direction = Vector2( 0, 0 )
+6/one_way_collision_max_depth = 0.0
+7/name = "rock"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 144, 182, 32, 25 )
+7/occluder_offset = Vector2( 16, 12.5 )
+7/navigation_offset = Vector2( 16, 12.5 )
+7/shape_offset = Vector2( 16, 12.5 )
+7/shapes = [ SubResource( 138 ), SubResource( 139 ), SubResource( 140 ), SubResource( 141 ), SubResource( 142 ), SubResource( 143 ), SubResource( 144 ), SubResource( 145 ), SubResource( 146 ), SubResource( 147 ), SubResource( 148 ), SubResource( 149 ) ]
+7/one_way_collision_direction = Vector2( 0, 0 )
+7/one_way_collision_max_depth = 0.0
+8/name = "wood_tree"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 498, 54, 30, 26 )
+8/occluder_offset = Vector2( 15, 13 )
+8/navigation_offset = Vector2( 15, 13 )
+8/shape_offset = Vector2( 15, 13 )
+8/shapes = [ SubResource( 150 ), SubResource( 151 ), SubResource( 152 ), SubResource( 153 ), SubResource( 154 ) ]
+8/one_way_collision_direction = Vector2( 0, 0 )
+8/one_way_collision_max_depth = 0.0
+9/name = "simple_tree"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 17, 209, 47, 47 )
+9/occluder_offset = Vector2( 23.5, 23.5 )
+9/navigation_offset = Vector2( 23.5, 23.5 )
+9/shape_offset = Vector2( 23.5, 23.5 )
+9/shapes = [ SubResource( 155 ) ]
+9/one_way_collision_direction = Vector2( 0, 0 )
+9/one_way_collision_max_depth = 0.0
+10/name = "Flowers"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 48, 177, 16, 31 )
+10/occluder_offset = Vector2( 8, 15.5 )
+10/navigation_offset = Vector2( 8, 15.5 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+10/one_way_collision_direction = Vector2( 0, 0 )
+10/one_way_collision_max_depth = 0.0
+11/name = "tree"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 80, 255, 32, 33 )
+11/occluder_offset = Vector2( 16, 16.5 )
+11/navigation_offset = Vector2( 16, 16.5 )
+11/shape_offset = Vector2( 16, 16.5 )
+11/shapes = [ SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ) ]
+11/one_way_collision_direction = Vector2( 0, 0 )
+11/one_way_collision_max_depth = 0.0
+12/name = "wood"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 50, 81, 46, 15 )
+12/occluder_offset = Vector2( 23, 7.5 )
+12/navigation_offset = Vector2( 23, 7.5 )
+12/shape_offset = Vector2( 23, 7.5 )
+12/shapes = [ SubResource( 78 ), SubResource( 79 ), SubResource( 80 ), SubResource( 81 ), SubResource( 82 ) ]
+12/one_way_collision_direction = Vector2( 0, 0 )
+12/one_way_collision_max_depth = 0.0
+13/name = "log"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 50, 81, 46, 15 )
+13/occluder_offset = Vector2( 23, 7.5 )
+13/navigation_offset = Vector2( 23, 7.5 )
+13/shape_offset = Vector2( 23, 7.5 )
+13/shapes = [ SubResource( 83 ) ]
+13/one_way_collision_direction = Vector2( 0, 0 )
+13/one_way_collision_max_depth = 0.0
+14/name = "fence 2"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 6, 274, 7, 31 )
+14/occluder_offset = Vector2( 3.5, 15.5 )
+14/navigation_offset = Vector2( 3.5, 15.5 )
+14/shape_offset = Vector2( 3.5, 15.5 )
+14/shapes = [ SubResource( 84 ) ]
+14/one_way_collision_direction = Vector2( 0, 0 )
+14/one_way_collision_max_depth = 0.0
+15/name = "placa"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 544, 32, 16, 15 )
+15/occluder_offset = Vector2( 8, 7.5 )
+15/navigation_offset = Vector2( 8, 7.5 )
+15/shape_offset = Vector2( 8, 7.5 )
+15/shapes = [ SubResource( 85 ) ]
+15/one_way_collision_direction = Vector2( 0, 0 )
+15/one_way_collision_max_depth = 0.0
+
